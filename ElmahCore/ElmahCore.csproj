@@ -3,20 +3,20 @@
   <PropertyGroup>
     <LangVersion>default</LangVersion>
 	  <Version>2.1.2</Version>
-    <PackageProjectUrl>https://github.com/ElmahCoreEx/ElmahCoreEx</PackageProjectUrl>
+    <PackageProjectUrl>https://github.com/ElmahCoreMagic/ElmahCoreMagic</PackageProjectUrl>
 	  <AssemblyVersion>2.1.2.0</AssemblyVersion>
 	  <FileVersion>2.1.2.0</FileVersion>
-	  <AssemblyName>ElmahCoreEx</AssemblyName>
-	  <PackageId>ElmahCoreEx.Common</PackageId>
-	  <Authors>ElmahCoreEx</Authors>
-	  <Company>ElmahCoreEx</Company>
-	  <Product>ElmahCoreEx</Product>
+	  <AssemblyName>ElmahCoreMagic</AssemblyName>
+	  <PackageId>ElmahCoreMagic.Common</PackageId>
+	  <Authors>ElmahCoreMagic</Authors>
+	  <Company>ElmahCoreMagic</Company>
+	  <Product>ElmahCoreMagic</Product>
 	  <NeutralLanguage>en-001</NeutralLanguage>
-	  <RepositoryUrl>https://www.nuget.org/packages/ElmahCoreEx</RepositoryUrl>
+	  <RepositoryUrl>https://www.nuget.org/packages/ElmahCoreMagic</RepositoryUrl>
 	  <PackageTags>net-core elmah mvc-core asp-net-core asp-net-core-mvc elmah-core netcore aspnetcore</PackageTags>
 	  <Description>ELMAH for ASP.NET Core</Description>
-	  <Copyright>ElmahCoreEx</Copyright>
-	  <RootNamespace>ElmahCoreEx</RootNamespace>
+	  <Copyright>ElmahCoreMagic</Copyright>
+	  <RootNamespace>ElmahCoreMagic</RootNamespace>
 	  <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PublishRepositoryUrl>true</PublishRepositoryUrl>
     <IncludeSymbols>true</IncludeSymbols>

@@ -2,19 +2,19 @@
 
   <PropertyGroup>
     <Version>2.1.2</Version>
-    <PackageProjectUrl>https://github.com/ElmahCoreEx/ElmahCoreEx</PackageProjectUrl>
+    <PackageProjectUrl>https://github.com/ElmahCoreMagic/ElmahCoreMagic</PackageProjectUrl>
     <AssemblyVersion>2.1.2.0</AssemblyVersion>
     <FileVersion>2.1.2.0</FileVersion>
     <AssemblyName>ElmahCore.Mvc</AssemblyName>
-    <PackageId>ElmahCoreEx</PackageId>
-    <Authors>ElmahCoreEx</Authors>
-    <Company>ElmahCoreEx</Company>
-    <Product>ElmahCoreEx</Product>
+    <PackageId>ElmahCoreMagic</PackageId>
+    <Authors>ElmahCoreMagic</Authors>
+    <Company>ElmahCoreMagic</Company>
+    <Product>ElmahCoreMagic</Product>
     <NeutralLanguage>en-001</NeutralLanguage>
-    <RepositoryUrl>https://www.nuget.org/packages/ElmahCoreEx</RepositoryUrl>
+    <RepositoryUrl>https://www.nuget.org/packages/ElmahCoreMagic</RepositoryUrl>
     <PackageTags>net-core elmah mvc-core asp-net-core asp-net-core-mvc elmah-core netcore netcore2 netcore20 mvc mvc6 aspnetcore aspnetcoremvc</PackageTags>
     <Description>ELMAH for ASP.NET Core MVC</Description>
-    <Copyright>ElmahCoreEx</Copyright>
+    <Copyright>ElmahCoreMagic</Copyright>
     <PublishRepositoryUrl>true</PublishRepositoryUrl>
     <IncludeSymbols>true</IncludeSymbols>
     <SymbolPackageFormat>snupkg</SymbolPackageFormat>

@@ -1,22 +1,27 @@
-![Build Status](https://github.com/elmahcoreex/elmahcoreex/actions/workflows/build.yml/badge.svg)
-![Latest Version](https://img.shields.io/nuget/v/elmahcoreex?style=flat-square)
-![Version Pre-release](https://img.shields.io/nuget/vpre/elmahcoreex?style=flat-square)
-![Last Commit](https://img.shields.io/github/last-commit/elmahcoreex/elmahcoreex?style=flat-square)
+![Build Status](https://github.com/ElmahCoreMagic/ElmahCoreMagic/actions/workflows/build.yml/badge.svg)
+![Latest Version](https://img.shields.io/nuget/v/ElmahCoreMagic?style=flat-square)
+![Version Pre-release](https://img.shields.io/nuget/vpre/ElmahCoreMagic?style=flat-square)
+![Last Commit](https://img.shields.io/github/last-commit/ElmahCoreMagic/ElmahCoreMagic?style=flat-square)
 
-![Code Quality](https://img.shields.io/codefactor/grade/github/elmahcoreex/elmahcoreex/develop?style=flat-square)
-![Dependencies](https://img.shields.io/librariesio/github/elmahcoreex/elmahcoreex?style=flat-square)
+![Code Quality](https://img.shields.io/codefactor/grade/github/ElmahCoreMagic/ElmahCoreMagic/develop?style=flat-square)
+![Dependencies](https://img.shields.io/librariesio/github/ElmahCoreMagic/ElmahCoreMagic?style=flat-square)
 
-![License](https://img.shields.io/github/license/elmahcoreex/elmahcoreex)
-![Contributors](https://img.shields.io/github/contributors/elmahcoreex/elmahcoreex?style=flat-square)
+![License](https://img.shields.io/github/license/ElmahCoreMagic/ElmahCoreMagic)
+![Contributors](https://img.shields.io/github/contributors/ElmahCoreMagic/ElmahCoreMagic?style=flat-square)
 
 # About
 
-This is a fork of the [ElmahCore](https://github.com/ElmahCore/ElmahCore) project, with changes for PR's that were sitting idle.
+This is a fork of the [ElmahCoreEx](https://github.com/ElmahCoreEx/ElmahCoreEx) project's develop branch which
+is a fork of the [ElmahCore](https://github.com/ElmahCore/ElmahCore) project, with changes for PR's that were sitting idle.
 It should be an almost slot in replacement for ElmahCore v2.1.2.
 
-See [changelog.md](changelog.md) for any further changes from v2.1.2
+My long term goal is to add deletion of log entries.
+
+See [changelog.md](changelog.md) for any changes from [ElmahCoreEx](https://github.com/ElmahCoreEx/ElmahCoreEx) develop branch.
 
 The interfaces and namespaces have been kept the same.
+
+**Note:** At this time there are no NuGet packages for this fork despite this README.md referring to them.
 
 # License
 
@@ -30,7 +35,7 @@ The source code for the front end appears non-existent, in ElmahCore the front e
 
 ELMAH for Net.Standard 2.0 and .Net 6
 
-Add NuGet package [ElmahCoreEx](https://www.nuget.org/packages?q=elmahcoreex)
+Add NuGet package [ElmahCoreMagic](https://www.nuget.org/packages?q=ElmahCoreMagic)
 
 ## Simple usage
 
@@ -82,9 +87,9 @@ The ErrorLog adapters available:
 
 - **MemoryErrorLog** – store errors in memory (by default)
 - **XmlFileErrorLog** – store errors in XML files.
-- **SqlErrorLog** - store errors in MS SQL (add reference to [ElmahCoreEx.Sql](https://www.nuget.org/packages/ElmahCoreEx.Sql))
-- **MysqlErrorLog** - store errors in MySQL (add reference to [ElmahCoreEx.MySql](https://www.nuget.org/packages/ElmahCoreEx.MySql))
-- **PgsqlErrorLog** - store errors in PostgreSQL (add reference to [ElmahCoreEx.Postgresql](https://www.nuget.org/packages/ElmahCoreEx.Postgresql))
+- **SqlErrorLog** - store errors in MS SQL (add reference to [ElmahCoreMagic.Sql](https://www.nuget.org/packages/ElmahCoreMagic.Sql))
+- **MysqlErrorLog** - store errors in MySQL (add reference to [ElmahCoreMagic.MySql](https://www.nuget.org/packages/ElmahCoreMagic.MySql))
+- **PgsqlErrorLog** - store errors in PostgreSQL (add reference to [ElmahCoreMagic.Postgresql](https://www.nuget.org/packages/ElmahCoreMagic.Postgresql))
 
 Example to configure for XML:
 
@@ -119,11 +124,11 @@ public IActionResult RaiseCustomExceptionExample()
 
 ## Microsoft.Extensions.Logging support
 
-ElmahCoreEx support `Microsoft.Extensions.Logging`
+ElmahCoreMagic support `Microsoft.Extensions.Logging`
 
 ## Source Preview
 
-ElmahCoreEx support source preview.
+ElmahCoreMagic support source preview.
 Add paths to source files example:
 
 ```csharp
@@ -140,15 +145,15 @@ services.AddElmah(options =>
 
 ## Logging request body
 
-V2.0.5+ ElmahCoreEx can log the request body.
+V2.0.5+ ElmahCoreMagic can log the request body.
 
 ## Logging SQL request body
 
-v2.0.6+ ElmahCoreEx can log the SQL request body.
+v2.0.6+ ElmahCoreMagic can log the SQL request body.
 
 ## Logging method parameters
 
-V2.0.6+ ElmahCoreEx can log method parameters.
+V2.0.6+ ElmahCoreMagic can log method parameters.
 
 ```csharp
 using ElmahCore;
